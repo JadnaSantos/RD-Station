@@ -52,8 +52,8 @@ Após instalar a versão correta do Node.js, você pode prosseguir com a instala
 
 ## 💅🏿 Implementações Futuras
 
-- Adicionar Typecript.
-- Ter um link que possibilite o usuário conhecer mais sobre o produto.
+- Adicionar Typescript.
+- Ter um link que possibilite o usuário conhecer mais sobre o produto recomendado.
 - Adicionar botão para que usuário consiga fazer o refresh da pagina.
 
 ## 👩🏿‍💻 Autor
