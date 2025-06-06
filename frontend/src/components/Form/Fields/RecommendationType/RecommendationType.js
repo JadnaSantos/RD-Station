@@ -1,5 +1,5 @@
 import React from 'react';
-import Checkbox from '../../shared/Checkbox';
+import Checkbox from '../../../shared/Checkbox';
 
 function RecommendationType({ onRecommendationTypeChange }) {
   return (
