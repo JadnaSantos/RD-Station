@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Checkbox from '../../shared/Checkbox';
+import Checkbox from '../../../shared/Checkbox';
 
 function Features({ features, selectedFeatures = [], onFeatureChange }) {
   const [currentFeatures, setCurrentFeatures] = useState(selectedFeatures)
