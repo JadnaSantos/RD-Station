@@ -3,9 +3,9 @@
 import React from 'react';
 import { Preferences, Features, RecommendationType } from './Fields';
 import { SubmitButton } from './SubmitButton';
-import useProducts from '../../hooks/useProducts';
-import useForm from '../../hooks/useForm';
-import useRecommendations from '../../hooks/useRecommendations';
+import useProducts from '../../hooks/useProducts/useProducts';
+import useForm from '../../hooks/useForm/useForm';
+import useRecommendations from '../../hooks/useRecommendations/useRecommendations';
 
 function Form({ onRecommend }) {
   const { preferences, features, products } = useProducts();
