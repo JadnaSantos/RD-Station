@@ -37,7 +37,7 @@ describe('PreferencesComponent', () => {
   })
 
 
-  test("Adicionar a preferences ao selecionar o checkbox", () => {
+  test("Adicionar a Preferências ao selecionar o checkbox", () => {
     render(<Preferences preferences={preferences} selectedPreferences={[]} onPreferenceChange={onPreferenceChange} />);
 
     const checkboxes = screen.getByTestId('checkbox-mock-Preferences 1');
@@ -45,7 +45,7 @@ describe('PreferencesComponent', () => {
     expect(onPreferenceChange).toHaveBeenCalledWith(['Preferences 1']);
   })
 
-  test("Remove a preferences ao desmarcar o checkbox", () => {
+  test("Remove a Preferências ao desmarcar o checkbox", () => {
     render(
       <Preferences
         preferences={preferences}
